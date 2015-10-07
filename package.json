@@ -1,0 +1,27 @@
+{
+  "name": "html5-desktop-notifications",
+  "version": "1.1.0",
+  "description": "HTML5-Desktop-Notifications",
+  "main": "server.js",
+  "scripts": {
+    "minify": "uglifyjs --screw-ie8 --mangle --compress --output desktop-notify-min.js desktop-notify.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForNeVeR/HTML5-Desktop-Notifications.git"
+  },
+  "keywords": [
+    "html5",
+    "notifications"
+  ],
+  "author": "Tsvetan Tsvetkov <tsekach@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ForNeVeR/HTML5-Desktop-Notifications/issues"
+  },
+  "homepage": "https://github.com/ForNeVeR/HTML5-Desktop-Notifications#readme",
+  "devDependencies": {
+    "uglify-js": "^2.4.24"
+  }
+}
